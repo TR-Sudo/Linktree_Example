@@ -6,7 +6,7 @@
 }
 .Linksbody b{
   padding-top: 5px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   color:rgb(60, 255, 0);
@@ -21,22 +21,22 @@
   margin-top: 30px;
   display: flex;
   flex-direction: row;
-  width: 50%;
-  height: 100px;
-  background-color: rgba(126, 157, 194,.5);
-  box-shadow: 5px 10px  #888888;
+  width: 60vw;
+  height: 70px;
+  background-color: rgba(126, 157, 194,.3);
+  box-shadow: 2px 2px  #888888;
   border-radius: 8px;
-  align-items: center;
-  border: solid;
-  text-align: center;
+  border: solid 1px;
   transition-duration: 0.8s;
 }
 .container:hover{
     background-color: rgb(53, 53, 53);
 }
 .container a{
-  font-size: 20px;
+  flex:1;
+  font-size: 15px;
   text-decoration:none;
+  align-self: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: rgb(255, 255, 255);  
@@ -48,6 +48,7 @@
   height: 60px;
   margin: 5px;
   filter: brightness(150%);
+  
 }
 .icons{
   padding-top: 20px;
@@ -57,4 +58,5 @@
 }
 .icons img{
   height: 50px; 
+  filter: brightness(150%);
 }
